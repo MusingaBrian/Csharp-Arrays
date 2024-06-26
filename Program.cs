@@ -26,7 +26,7 @@ foreach (string name in names)
 {
     Console.WriteLine($"{name}");
 }
-*/
+
 
 int[] inventory = { 200, 450, 700, 175, 250 };
 
@@ -41,3 +41,14 @@ foreach (int item in inventory)
 }
 
 Console.WriteLine($"We have {sum} items in the inventory.");
+*/
+
+string[] fraudulentOrderIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+
+foreach (string item in fraudulentOrderIDs)
+{
+    if (item.StartsWith("B"))
+    {
+        Console.WriteLine(item);
+    }
+}
